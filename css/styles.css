@@ -158,6 +158,10 @@ body {
 
 /* Наша команда */
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .team-title {
   color: var(--title-text-color);
   font-weight: 700;
