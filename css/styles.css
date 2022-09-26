@@ -1,0 +1,128 @@
+/* основний фон білий #FFFFFF */
+/* акцент #2196F3 */
+/* основний колір тексту #757575; */
+/* колір заголовків текстку #212121; */
+/* колір фону футера #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-bg-footer: #2f303a;
+  --primary-text-footer: rgba(255, 255, 255, 0.6);
+  --filter-bg: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style-type: none;
+}
+
+/* Логотип верхній */
+
+.logo-top {
+  color: var(--accent-color);
+  text-decoration-line: none;
+}
+.studio-black {
+  color: var(--title-text-color);
+}
+
+/* Навігація */
+.navi {
+  color: var(--title-text-color);
+  text-decoration-line: none;
+}
+.navi:hover {
+  color: var(--accent-color);
+}
+
+/* Контакти */
+.contacts-top {
+  color: var(--primary-text-color);
+  text-decoration-line: none;
+}
+.contacts-top:hover {
+  color: var(--accent-color);
+  text-decoration-line: none;
+}
+/* Герой */
+.hero {
+  background-color: var(--primary-bg-footer);
+}
+.title-hero {
+  color: var(--primary-white-color);
+}
+.button-hero {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button-hero:hover {
+  background-color: #188ce8;
+}
+
+/* Наші переваги */
+.advantages {
+  color: var(--title-text-color);
+}
+.advantages-title {
+  color: var(--title-text-color);
+}
+.advantages-text {
+  color: var(--primary-text-color);
+}
+
+/* Чим ми займаємось */
+
+.gallery-title {
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team-title {
+  color: var(--title-text-color);
+}
+
+.team-cadr-title {
+  color: var(--title-text-color);
+}
+.team-card-text {
+  color: var(--primary-text-color);
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--primary-bg-footer);
+}
+
+/* Логотип нижній */
+
+.logo-bottom {
+  color: var(--accent-color);
+  text-decoration-line: none;
+}
+.studio-white {
+  color: var(--primary-white-color);
+}
+
+/* Контакти нижні */
+
+.map-link {
+  color: var(--primary-white-color);
+  text-decoration-line: none;
+  font-style: normal;
+}
+
+.contacts-bottom {
+  color: var(--primary-text-footer);
+  text-decoration-line: none;
+  font-style: normal;
+}
+/* Портфоліо */
