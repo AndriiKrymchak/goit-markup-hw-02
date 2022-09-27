@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,40 +14,40 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html" class="logo-top">Web<span class="studio-black">Studio</span></a>
-        <ul class="navigation list">
+      <nav class="header">
+        <a href="./index.html" class="header-logo">Web<span class="header-studio">Studio</span></a>
+        <ul class="header-list">
           <li><a href="./index.html" class="navigation">Студія</a></li>
           <li><a href="./portfolio.html" class="navigation current">Портфоліо</a></li>
           <li><a href="#" class="navigation">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts list">
+      <ul class="contacts-list">
         <li><a href="mailto:info@devstudio.com" class="contacts-top">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="contacts-top">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1 class="portfolio-hide">Наші роботи</h1>
-        <div>
-          <ul class="portfolio list">
-            <li><button type="button" cursor="pointer" class="portfolio-buttons">Усі</button></li>
-            <li>
-              <button type="button" class="portfolio-buttons">Веб-сайти</button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-buttons">Додатки</button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-buttons">Дизайн</button>
-            </li>
-            <li>
-              <button type="button" class="portfolio-buttons">Маркетинг</button>
-            </li>
-          </ul>
-        </div>
-        <ul class="gallery list">
+      <section class="portfolio">
+        <h1 class="portfolio-title">Наші роботи</h1>
+
+        <ul class="portfolio-list">
+          <li><button type="button" class="portfolio-buttons">Усі</button></li>
+          <li>
+            <button type="button" class="portfolio-buttons">Веб-сайти</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-buttons">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-buttons">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-buttons">Маркетинг</button>
+          </li>
+        </ul>
+
+        <ul class="gallery">
           <li class="gallery-box">
             <img src="./images/techcrack.jpg" alt="Ноутбук відкритий" width="370" height="294" />
             <h3 class="gallery-title">Технокряк</h3>
@@ -103,10 +102,10 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo-bottom">Web<span class="studio-white">Studio</span></a>
+      <a href="./index.html" class="footer-logo">Web<span class="footer-studio">Studio</span></a>
       <address>
-        <ul class="address-list list">
-          <li>
+        <ul class="address-list">
+          <li class="addres-box">
             <a
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
@@ -115,10 +114,10 @@
               >м. Київ, пр-т Лесі Українки, 26
             </a>
           </li>
-          <li>
+          <li class="addres-box">
             <a href="mailto:info@devstudio.com" class="contacts-bottom">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="addres-box">
             <a href="tel:+380961111111" class="contacts-bottom">+38 096 111 11 11</a>
           </li>
         </ul>
