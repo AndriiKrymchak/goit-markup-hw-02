@@ -271,6 +271,7 @@ body {
 }
 .portfolio-list {
   list-style-type: none;
+  display: flex;
 }
 
 .portfolio-buttons {
